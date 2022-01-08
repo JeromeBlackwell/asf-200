@@ -9,7 +9,7 @@ f = " courses."
 print(d+str(e)+f)
 
 g = "Eric is doing"
-h = "well in geograph"
+h = "well in geograph."
 print (g+h)
 
 
