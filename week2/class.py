@@ -17,8 +17,4 @@ class myClass:
 person = myClass(input ("Enter your First Name: "), input ("Enter your Last Name: "),  input("Enter you Place of BirthPlace: "))
 print(person._str_())
 
-    # print ("name.upper()")
-    # def method2(BirthPlace = input ("Enter your BirthPlace"))
-    # print ("BirthPlace".upper())
-
-    # def main()
+    
