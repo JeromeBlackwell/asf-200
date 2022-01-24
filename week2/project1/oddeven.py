@@ -17,10 +17,10 @@ num=int(num)
 check=input("Enter a number you want to divide by: ")
 check=int(check)
 
-if num%check==0:
-    print(num,("divides perfectly with no remainder"))
+if num %check==0:
+    print(num,("divides wonderfully with NO remainder"))
 
 else:
-    print("Remainder of "+str(num%check))
+    print("Remainder of "+str(num %check))
 
 
