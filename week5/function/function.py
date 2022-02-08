@@ -34,6 +34,3 @@ def Count_my_Letters(s):
     print ("No. of Lower case Characters : ", car["LOWER_CASE"])
 
 Count_my_Letters('Do What You Have to Do to Get Where You Want to Go!')
-
-
-
