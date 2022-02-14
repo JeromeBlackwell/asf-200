@@ -1,0 +1,13 @@
+{% extends 'base.html'%}
+
+{% block content %}
+<h1>Hello {{name}}!!!!</h1>
+
+<form action="add">
+    Enter First_name: <input type="text" name="Firstname"><br>
+    Enter Last_name: <input type="text" name="Lastname"><br>
+    <input type="submit">
+
+</form>
+
+{% endblock %}
