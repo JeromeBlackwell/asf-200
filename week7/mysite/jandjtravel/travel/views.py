@@ -15,8 +15,8 @@ def add(request):
      tex2=request.GET['Lastname']
      tex3=request.GET['Phone']
      tex4=request.GET['Email']
+     result = " Firstname: "  + tex1 + " LastName: " + tex2 + " Phone: " + tex3 + " Email: " + tex4
      
-     result = tex1 + tex2 + tex3 + tex4
 
-def res(request):
-    return render(request, 'result.html', {'result':res})
+# def res(request):
+     return render(request, 'result.html', {'result':result})
