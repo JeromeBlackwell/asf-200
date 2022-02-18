@@ -11,7 +11,10 @@
 <p>{{'Are you looking for you a new experience of in the travel industry with the ambience that displays luxuray at its finish.  Let JandJ Travel show you the way by completing the form below and one of our travel advisors contact you. Thank you for visiting JandJ Travel'}}</p>
 
 
-<form action="add">
+<form action="add" method="post">
+
+    {% csrf_token %}
+    
     Enter First_name: <input type="text" name="Firstname"><br>
     Enter Last_name: <input type="text" name="Lastname"><br>
     Enter Phone: <input type="text" name="Phone"><br>
